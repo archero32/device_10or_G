@@ -13,10 +13,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 $(call inherit-product, device/10or/G/device.mk)
 
 # Inherit some common ArrowOS stuff
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/cherish/config/common.mk)
 
-# ArrowOS
-DEVICE_MAINTAINER := kardebayan
+# CherishOS
+DEVICE_MAINTAINER := archero32
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
