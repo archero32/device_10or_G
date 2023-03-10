@@ -1,8 +1,8 @@
 #
-# Copyright (C) 2021 The ArrowOS Project
+# Copyright (C) 2021 The CherishOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_G.mk
+    $(LOCAL_DIR)/cherish_G.mk
