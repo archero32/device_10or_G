@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_G.mk
+    $(LOCAL_DIR)/banana_G.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_G-user \
-    lineage_G-userdebug \
-    lineage_G-eng
+    banana_G-user \
+    banana_G-userdebug \
+    banana_G-eng
