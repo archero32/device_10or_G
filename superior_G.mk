@@ -12,21 +12,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Inherit from G device
 $(call inherit-product, device/10or/G/device.mk)
 
-# Inherit some common BananaDroid stuff
-$(call inherit-product, vendor/banana/config/common.mk)
+# Inherit some common SuperiorOS stuff
+$(call inherit-product, vendor/superior/config/common.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Banana Flags
-BANANA_MAINTAINER := Lalit
-WITH_GAPPS := true
+# SuperiorOS Flags
+BUILD_WITH_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := 10.or
 PRODUCT_DEVICE := G
 PRODUCT_MANUFACTURER := 10.or
-PRODUCT_NAME := banana_G
+PRODUCT_NAME := superior_G
 PRODUCT_MODEL := 10.or G
 
 PRODUCT_GMS_CLIENTID_BASE := android-huaqin
